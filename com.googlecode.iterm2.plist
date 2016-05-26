@@ -25,7 +25,7 @@
 	<key>Control</key>
 	<integer>1</integer>
 	<key>CopyLastNewline</key>
-	<false/>
+	<true/>
 	<key>CopySelection</key>
 	<false/>
 	<key>Custom Color Presets</key>
@@ -5391,7 +5391,7 @@
 			<key>Action</key>
 			<integer>11</integer>
 			<key>Text</key>
-			<string>0x17</string>
+			<string>0x15</string>
 		</dict>
 		<key>0x7f-0x80000</key>
 		<dict>
@@ -5421,12 +5421,26 @@
 			<key>Text</key>
 			<string></string>
 		</dict>
+		<key>0xf702-0x220000</key>
+		<dict>
+			<key>Action</key>
+			<integer>47</integer>
+			<key>Text</key>
+			<string>0</string>
+		</dict>
 		<key>0xf702-0x280000</key>
 		<dict>
 			<key>Action</key>
 			<integer>10</integer>
 			<key>Text</key>
 			<string>b</string>
+		</dict>
+		<key>0xf702-0x2a0000</key>
+		<dict>
+			<key>Action</key>
+			<integer>47</integer>
+			<key>Text</key>
+			<string>1</string>
 		</dict>
 		<key>0xf702-0x300000</key>
 		<dict>
@@ -5438,9 +5452,16 @@
 		<key>0xf702-0x320000</key>
 		<dict>
 			<key>Action</key>
-			<integer>33</integer>
+			<integer>47</integer>
 			<key>Text</key>
-			<string></string>
+			<string>2</string>
+		</dict>
+		<key>0xf703-0x220000</key>
+		<dict>
+			<key>Action</key>
+			<integer>48</integer>
+			<key>Text</key>
+			<string>0</string>
 		</dict>
 		<key>0xf703-0x280000</key>
 		<dict>
@@ -5448,6 +5469,13 @@
 			<integer>10</integer>
 			<key>Text</key>
 			<string>f</string>
+		</dict>
+		<key>0xf703-0x2a0000</key>
+		<dict>
+			<key>Action</key>
+			<integer>48</integer>
+			<key>Text</key>
+			<string>1</string>
 		</dict>
 		<key>0xf703-0x300000</key>
 		<dict>
@@ -5459,9 +5487,9 @@
 		<key>0xf703-0x320000</key>
 		<dict>
 			<key>Action</key>
-			<integer>34</integer>
+			<integer>48</integer>
 			<key>Text</key>
-			<string></string>
+			<string>2</string>
 		</dict>
 		<key>0xf729-0x100000</key>
 		<dict>
@@ -5518,6 +5546,10 @@
 	<true/>
 	<key>HideTab</key>
 	<false/>
+	<key>HideTabCloseButton</key>
+	<true/>
+	<key>HideTabNumber</key>
+	<true/>
 	<key>HighlightTabLabels</key>
 	<true/>
 	<key>HotKeyBookmark</key>
@@ -5562,6 +5594,25 @@
 	<string></string>
 	<key>NSScrollAnimationEnabled</key>
 	<false/>
+	<key>NSScrollViewShouldScrollUnderTitlebar</key>
+	<false/>
+	<key>NSTableView Columns KeyBingingTable</key>
+	<array>
+		<data>
+		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
+		hAErATCG
+		</data>
+		<string>198</string>
+		<data>
+		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
+		hAErATGG
+		</data>
+		<string>307</string>
+	</array>
+	<key>NSTableView Hidden Columns KeyBingingTable</key>
+	<array/>
+	<key>NSTableView Sort Ordering KeyBingingTable</key>
+	<array/>
 	<key>NSToolbar Configuration Terminal Toolbar</key>
 	<dict>
 		<key>TB Display Mode</key>
@@ -5573,12 +5624,17 @@
 		<key>TB Size Mode</key>
 		<integer>1</integer>
 	</dict>
+	<key>NSToolbar Configuration com.apple.NSColorPanel</key>
+	<dict>
+		<key>TB Is Shown</key>
+		<integer>1</integer>
+	</dict>
 	<key>NSWindow Frame NSColorPanel</key>
 	<string>1226 569 214 309 0 0 1440 878 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>1095 237 924 485 0 0 2560 1417 </string>
+	<string>161 417 606 456 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>658 875 850 528 0 0 2560 1417 </string>
+	<string>765 112 1410 928 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>48 448 585 426 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -6034,6 +6090,12 @@
 	</array>
 	<key>NoSyncNeverRemindPrefsChangesCopy</key>
 	<true/>
+	<key>NoSyncPermissionToShowTip</key>
+	<false/>
+	<key>NoSyncSuppressAnnyoingBellOffer</key>
+	<true/>
+	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
+	<real>476149451.32484901</real>
 	<key>NoSyncTimeOfLastPromo</key>
 	<real>453338126.497244</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
@@ -6082,6 +6144,8 @@
 	</dict>
 	<key>PrefsCustomFolder</key>
 	<string>~/.iterm</string>
+	<key>Print In Black And White</key>
+	<true/>
 	<key>PromptOnClose</key>
 	<true/>
 	<key>PromptOnQuit</key>
@@ -6096,16 +6160,20 @@
 	<true/>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
+	<key>SUFeedAlternateAppNameKey</key>
+	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/testing.xml</string>
+	<string>https://iterm2.com/appcasts/testing3.xml</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-02-01T18:19:22Z</date>
+	<date>2016-03-04T17:36:51Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
 	<false/>
+	<key>ShowFullScreenTabBar</key>
+	<true/>
 	<key>ShowPaneTitles</key>
 	<true/>
 	<key>SmartPlacement</key>
@@ -6116,6 +6184,8 @@
 	<integer>4</integer>
 	<key>SwitchWindowModifier</key>
 	<integer>6</integer>
+	<key>TabStyle</key>
+	<integer>0</integer>
 	<key>TabViewType</key>
 	<integer>0</integer>
 	<key>ThreeFingerEmulates</key>
@@ -6149,6 +6219,6 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>2.1.4</string>
+	<string>2.9.20160206</string>
 </dict>
 </plist>
