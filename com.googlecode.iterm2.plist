@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>AboutToPasteTabsWithCancel</key>
+	<true/>
+	<key>AboutToPasteTabsWithCancel_selection</key>
+	<integer>2</integer>
 	<key>AdjustWindowForFontSizeChange</key>
 	<true/>
 	<key>AllowClipboardAccess</key>
@@ -5562,6 +5566,8 @@
 	<integer>27</integer>
 	<key>HotkeyCode</key>
 	<integer>53</integer>
+	<key>HotkeyMigratedFromSingleToMulti</key>
+	<true/>
 	<key>HotkeyModifiers</key>
 	<integer>256</integer>
 	<key>IRMemory</key>
@@ -5636,15 +5642,19 @@
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>269 139 606 456 0 0 1440 877 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>269 122 796 473 0 0 1440 877 </string>
+	<string>269 56 796 473 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>191 74 1095 768 0 0 1440 877 </string>
+	<string>191 88 1095 754 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>48 448 585 426 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
 	<string>225 22 585 426 0 0 1440 878 </string>
 	<key>NeverWarnAboutOverrides</key>
 	<true/>
+	<key>NeverWarnAboutShortLivedSessions_A6476B63-B90B-4C39-BF90-08546D92E1DA</key>
+	<true/>
+	<key>NeverWarnAboutShortLivedSessions_A6476B63-B90B-4C39-BF90-08546D92E1DA_selection</key>
+	<integer>0</integer>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -6108,6 +6118,8 @@
 	<integer>0</integer>
 	<key>NoSyncPermissionToShowTip</key>
 	<false/>
+	<key>NoSyncSilenceAnnoyingBellAutomatically</key>
+	<true/>
 	<key>NoSyncSuppressAnnyoingBellOffer</key>
 	<true/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
@@ -6131,7 +6143,7 @@
 	<key>PasteFromClipboard</key>
 	<false/>
 	<key>PasteTabToStringTabStopSize</key>
-	<integer>4</integer>
+	<integer>2</integer>
 	<key>PointerActions</key>
 	<dict>
 		<key>Button,1,1,,</key>
@@ -6185,7 +6197,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-04-14T00:03:46Z</date>
+	<date>2017-07-20T07:45:58Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -6194,6 +6206,8 @@
 	<false/>
 	<key>ShowPaneTitles</key>
 	<true/>
+	<key>ShowSessionRestoredBanner</key>
+	<false/>
 	<key>SmartPlacement</key>
 	<true/>
 	<key>SplitPaneDimmingAmount</key>
@@ -6234,9 +6248,11 @@
 	<string>/-+\~_.</string>
 	<key>findIgnoreCase_iTerm</key>
 	<true/>
+	<key>findMode_iTerm</key>
+	<integer>0</integer>
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.0.15</string>
+	<string>3.1.beta.5</string>
 </dict>
 </plist>
